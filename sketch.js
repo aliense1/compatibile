@@ -101,7 +101,7 @@ function draw() {
 function createCash() {
   if (World.frameCount % 200 == 0) {
    // Modify the positions of cash 
-    var cash = createSprite(random(15,,width-50))
+    var cash = createSprite(random(15,width-50))
     cash.addImage(cashImg);
   cash.scale=0.12;
   cash.velocityY = 5;
