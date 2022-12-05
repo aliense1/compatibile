@@ -20,7 +20,7 @@ function preload(){
 
 function setup(){
   
-createCanvas(windowsHeight,windowsWidth)
+createCanvas(windowWidth,windowHeight)
 
 path=createSprite(width/2,200);
 path.addImage(pathImg);
